@@ -1,9 +1,14 @@
 * {
-	width: unset;
-	height: unset;
-	padding: unset;
-	margin: unset;
+	width: fit-content;
+	height: fit-content;
+	padding: 0;
+	margin: 0;
 	box-sizing: content-box;
 	font-size: 12px;
 	font-family: 'Courier New', Courier, monospace;
+}
+
+app-header,
+app-footer {
+	display: block;
 }
